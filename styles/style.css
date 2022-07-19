@@ -1,0 +1,59 @@
+/* font use */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+/* common style area */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* main area content football cup */
+.container {
+    background-color: black;
+    margin: 40px 115px 0px 115px;
+    border-radius: 25px;
+    height: 550px;
+}
+
+.football-cup {
+    display: flex;
+}
+
+.football-content {
+    width: 50%;
+    width: 450px;
+    height: 437px;
+    color: white;
+    margin: 90px 15px 10px 93px;
+}
+
+.football-content p {
+    font-size: 14px;
+    color: #ececec;
+}
+
+.football-news {
+    font-size: 55px;
+    margin: 0;
+}
+
+.watch-live {
+    background-color: red;
+    margin-right: 300px;
+    padding: 10px 0px;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.watch-live a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.football-player img {
+    width: 50%;
+    Width: 480px;
+    Height: 518px;
+    margin-top: 32px;
+}
