@@ -3,6 +3,7 @@
 
 /* common style area */
 body {
+    margin:0px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -158,20 +159,55 @@ body {
 }
 
 /* This is foooter area--- */
-.goal-around {
-    background-color: #ececec;
+.last-goal {
+    background-color: black;
+    height: 280px;
+    padding-top: 70px;
 }
 
-.goal-around h1 {
+.last-goal h1 {
     text-align: center;
     color: white;
-    margin-top: 100px;
 }
 
-.goal-around hr {
-    margin: 0px 100px;
+.last-goal hr {
+    color: #b8b6b6;
+    margin: 0px 120px 50px 120px;
 }
 
-.goal-around a {
-    text-align: center;
+.footer-menu {
+    display: inline;
+    margin-left: 250px;
+    margin-bottom: 100px;
+
+}
+
+.last-goal a {
+    margin-left: 50px;
+    color: #b8b6b6;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.social-icon {
+    margin-left: 550px;
+    
+}
+
+.fa-facebook {
+    color: #4267B2;
+    padding: 20px;
+    
+}
+
+.fa-instagram {
+    color:  #E1306C;
+    padding: 20px;
+    
+}
+
+.fa-linkedin {
+    color: #0072b1 ;
+    padding: 20px;
+    
 }
