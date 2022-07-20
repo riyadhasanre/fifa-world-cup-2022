@@ -107,57 +107,30 @@ body {
 
 .player-live {
     border: 1px solid #ececec;
-    height: 323px;
+    height:290px;
+    width:425px;
     margin: 6px;
     border-radius: 10px;
-
+    
 }
-
+.blog-flag{
+    display: flex;
+}
+.time{
+   text-align: center;
+}
 .player-live img {
-    height: 175px;
-    width: 253px;
-    margin-bottom: 10px;
-}
+    height: 80px;
+    width: 130px;
+    margin:50px 10px 20px 35px;
 
-.player-live a {
-    border: 1px solid black;
-    text-decoration: none;
-    margin-left: 20px;
-    padding: 0px 8px;
-    font-size: 16px;
-    color:black;
-    border-radius: 5px;
 }
-
+.blog-flag h2{
+    margin:70px 2px 0px 20px;
+}
 .player-live p {
     font-size: 14px;
     margin-left: 20px;
-}
-
-.icons {
-    display: flex;
-}
-
-.player-live .icon {
-    width: 22px;
-    height: 22px;
-    margin-left: 20px;
-
-}
-
-.player-live .hour {
-    margin: 0px 10px 0px 8px;
-}
-
-.player-live .hour {
-    margin-bottom: 50px;
-}
-
-.player-live .chat-icon {
-    width: 22px;
-    height: 22px;
-    margin-left: 20px;
-    margin-top: 2px;
 }
 
 /* This is foooter area--- */
