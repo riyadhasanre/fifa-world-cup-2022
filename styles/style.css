@@ -125,6 +125,7 @@ body {
     margin-left: 20px;
     padding: 0px 8px;
     font-size: 16px;
+    color:white;
 }
 
 .player-live p {
@@ -211,6 +212,7 @@ body {
     padding: 20px;
     
 }
+/* --comme 
 @media screen and (max-width:480px) {
     .container {
         margin: 40px 20px 0px 120px;
@@ -233,3 +235,13 @@ body {
         margin-top: 32px;
     }
 }
+ */
+
+ @media only screen and(max-width:400px;) {
+    .player-videos {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        margin: 
+    }
+ }
