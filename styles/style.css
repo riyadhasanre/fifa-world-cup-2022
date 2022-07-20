@@ -57,3 +57,61 @@ body {
     Height: 518px;
     margin-top: 32px;
 }
+/* ---blogs start----- */
+.player-videos{
+    display: flex;
+    
+    margin:120px;
+    border:1px solid red;
+}
+.click-btn-area{
+    width: 30%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width:290px;
+    height:330px;
+    background-color: black;
+}
+.match{
+    border-radius: 7px;
+    text-align: center;
+    background-color:#ececec;
+
+}
+
+.blog-small{
+    background-color: red;
+    
+}
+.blog-small a{
+    color: white;
+}
+.match a{
+    text-decoration: none;
+    color: black;
+}
+.blog-start{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.articl-area{
+    border:1px solid black;
+    
+}
+
+/* This is foooter area--- */
+.goal-around{
+    background-color: #ececec ;
+}
+.goal-around h1{
+    text-align: center;
+    color:white;
+    margin-top: 100px;
+}
+.goal-around hr{
+    margin:0px 100px;
+}
+.goal-around a{
+    text-align: center;
+}
