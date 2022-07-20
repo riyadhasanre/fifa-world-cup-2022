@@ -107,8 +107,8 @@ body {
 
 .player-live {
     border: 1px solid #ececec;
-    height:290px;
-    width:425px;
+    height:220px;
+    width:292px;
     margin: 6px;
     border-radius: 10px;
     
@@ -118,15 +118,16 @@ body {
 }
 .time{
    text-align: center;
+
 }
 .player-live img {
-    height: 80px;
-    width: 130px;
-    margin:50px 10px 20px 35px;
+    height: 60px;
+    width: 110px;
+    margin:50px 10px 20px 15px;
 
 }
 .blog-flag h2{
-    margin:70px 2px 0px 20px;
+    margin:70px 2px 0px 2px;
 }
 .player-live p {
     font-size: 14px;
