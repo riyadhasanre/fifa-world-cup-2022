@@ -105,24 +105,25 @@ body {
 
 .player-live {
     border: 1px solid #ececec;
-    height:175px;
-    width:200px;
+    height:213px;
+    width:264px;
     margin: 6px;
     border-radius: 10px;
 }
 
 .player-live img {
     height: 50px;
-    width: 80px;
-    margin:50px 10px 20px 15px;
+    width: 400px;
+    margin:30px 10px 20px 0px;
 }
 
 .blog-flag{
     display: flex;
+    margin: 0px 8px 0px 15px;
 }
 
 .blog-flag h2{
-    margin:70px 2px 0px 2px;
+    margin:35px 14px 0px 8px;
 }
 
 .time{
