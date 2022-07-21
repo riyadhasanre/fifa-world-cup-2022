@@ -3,11 +3,11 @@
 
 /* common style area */
 body {
-    margin:0px;
+    margin: 0px;
     font-family: 'Poppins', sans-serif;
 }
 
-/* main area content football cup */
+/* main area --------content ------- */
 .container {
     background-color: black;
     margin: 40px 115px 0px 115px;
@@ -27,14 +27,14 @@ body {
     margin: 90px 15px 10px 93px;
 }
 
-.football-content p {
-    font-size: 14px;
-    color: #ececec;
-}
-
 .football-news {
     font-size: 55px;
     margin: 0;
+}
+
+.football-content p {
+    font-size: 14px;
+    color: #ececec;
 }
 
 .watch-live {
@@ -59,7 +59,7 @@ body {
     margin-top: 32px;
 }
 
-/* ---blogs start----- */
+/* ---blogs -----------here----- */
 .player-videos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -82,7 +82,11 @@ body {
     background-color: #ececec;
     padding-top: 18px;
     margin: 20px 25px 20px 25px;
+}
 
+.match a {
+    text-decoration: none;
+    color: black;
 }
 
 .blog-small {
@@ -94,23 +98,19 @@ body {
     color: white;
 }
 
-.match a {
-    text-decoration: none;
-    color: black;
-}
-
 .blog-start {
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
+/* -------artical start---- */
+
 .player-live {
     border: 1px solid #ececec;
     height: 323px;
     margin: 6px;
     border-radius: 10px;
-
 }
 
 .player-live img {
@@ -125,7 +125,7 @@ body {
     margin-left: 20px;
     padding: 0px 8px;
     font-size: 16px;
-    color:black;
+    color: black;
     border-radius: 5px;
 }
 
@@ -145,20 +145,19 @@ body {
 
 }
 
-.player-live .hour {
-    margin: 0px 10px 0px 8px;
-}
-
-.player-live .hour {
-    margin-bottom: 50px;
-}
-
 .player-live .chat-icon {
     width: 22px;
     height: 22px;
     margin-left: 20px;
     margin-top: 2px;
 }
+
+.player-live .hour {
+    margin: 0px 10px 0px 8px;
+    margin-bottom: 50px;
+}
+
+/* -----end-- article------ */
 
 /* This is foooter area--- */
 .last-goal {
@@ -181,7 +180,6 @@ body {
     display: inline;
     margin-left: 250px;
     margin-bottom: 100px;
-
 }
 
 .last-goal a {
@@ -193,28 +191,131 @@ body {
 
 .social-icon {
     margin-left: 550px;
-    
 }
 
 .fa-facebook {
     color: #4267B2;
     padding: 20px;
-    
 }
 
 .fa-instagram {
-    color:  #E1306C;
+    color: #E1306C;
     padding: 20px;
-    
 }
 
 .fa-linkedin {
-    color: #0072b1 ;
+    color: #0072b1;
     padding: 20px;
-    
 }
---------
- @media only screen and(max-width:400px;) {
-    
-       
- }
+
+/* --------midea query------ */
+/* --------midea query------ */
+
+@media only screen and (max-width:576px) {
+
+    .player-videos,
+    .click-btn-area,
+    .blog-start {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 55px;
+    }
+
+    .container {
+        background-color: black;
+        margin: 22px;
+        border-radius: 15px;
+        height: 828px;
+    }
+
+    .football-cup {
+        flex-direction: column;
+    }
+
+    .football-content {
+        width: 50%;
+        width: 450px;
+        height: 437px;
+        color: white;
+        margin: 40px;
+    }
+
+    .football-content p {
+        font-size: 13px;
+        color: #ececec;
+    }
+
+    .football-news {
+        font-size: 55px;
+        margin: 0;
+    }
+
+    .watch-live {
+        background-color: red;
+        margin-right: 230px;
+        padding: 10px 0px;
+        border-radius: 5px;
+        margin-top: 25px;
+        margin-left: 75px;
+    }
+
+    .watch-live a {
+        text-decoration: none;
+        color: white;
+        margin-left: 20px;
+        font-size: 18px;
+    }
+
+    .football-player img {
+        width: 50%;
+        Width: 100%;
+        margin-left: 60px;
+    }
+
+    .player-videos {
+        margin-left: 55px;
+    }
+
+    .click-btn-area {
+        width: 280px;
+        height: 300px;
+        margin: 9px 8px 10px 15px;
+        border-radius: 10px;
+    }
+
+    .match {
+        border-radius: 8px;
+        text-align: center;
+        background-color: #ececec;
+        padding-top: 18px;
+        margin: 20px 25px 20px 25px;
+    }
+
+    .blog-small {
+        background-color: red;
+    }
+
+    .blog-small a {
+        color: white;
+    }
+
+    .match a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .player-live {
+        border: 1px solid #ececec;
+        height: 323px;
+        margin: px;
+        border-radius: 10px;
+    }
+
+    .player-live img {
+        height: 57%;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+
+}

@@ -7,7 +7,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-/* main area content football cup */
+/* main area content ----------- */
 .container {
     background-color: black;
     margin: 40px 115px 0px 115px;
@@ -27,14 +27,14 @@ body {
     margin: 90px 15px 10px 93px;
 }
 
-.football-content p {
-    font-size: 14px;
-    color: #ececec;
-}
-
 .football-news {
     font-size: 55px;
     margin: 0;
+}
+
+.football-content p {
+    font-size: 14px;
+    color: #ececec;
 }
 
 .watch-live {
@@ -82,7 +82,11 @@ body {
     background-color: #ececec;
     padding-top: 18px;
     margin: 20px 25px 20px 25px;
+}
 
+.match a {
+    text-decoration: none;
+    color: black;
 }
 
 .blog-small {
@@ -94,13 +98,7 @@ body {
     color: white;
 }
 
-.match a {
-    text-decoration: none;
-    color: black;
-}
-
 .blog-start {
-
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
@@ -111,30 +109,33 @@ body {
     width:292px;
     margin: 6px;
     border-radius: 10px;
-    
 }
-.blog-flag{
-    display: flex;
-}
-.time{
-   text-align: center;
 
-}
 .player-live img {
     height: 60px;
     width: 110px;
     margin:50px 10px 20px 15px;
-
 }
+
+.blog-flag{
+    display: flex;
+}
+
 .blog-flag h2{
     margin:70px 2px 0px 2px;
 }
+
+.time{
+   text-align: center;
+}
+
 .player-live p {
     font-size: 14px;
     margin-left: 20px;
 }
 
 /* This is foooter area--- */
+
 .last-goal {
     background-color: black;
     height: 280px;
@@ -155,7 +156,6 @@ body {
     display: inline;
     margin-left: 250px;
     margin-bottom: 100px;
-
 }
 
 .last-goal a {
@@ -167,28 +167,60 @@ body {
 
 .social-icon {
     margin-left: 550px;
-    
 }
 
 .fa-facebook {
     color: #4267B2;
     padding: 20px;
-    
 }
 
 .fa-instagram {
     color:  #E1306C;
     padding: 20px;
-    
 }
 
 .fa-linkedin {
     color: #0072b1 ;
     padding: 20px;
-    
 }
---------
- @media only screen and(max-width:400px;) {
-    
+
+/* --------midea query------ */
+ @media only screen and(max-width:576px) {
+    .player-videos,
+    .click-btn-area,
+    .blog-start {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 55px;
+    }
+
+    .container {
+        background-color: black;
+        margin: 22px;
+        border-radius: 15px;
+        height: 828px;
+    }
+
+    .football-cup {
+        flex-direction: column;
+    }
+
+    .football-content {
+        width: 50%;
+        width: 450px;
+        height: 437px;
+        color: white;
+        margin: 40px;
+    }
+
+    .football-content p {
+        font-size: 13px;
+        color: #ececec;
+    }
+
+    .football-news {
+        font-size: 55px;
+        margin: 0;
+    }
        
  }
